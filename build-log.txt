@@ -1,0 +1,26 @@
+
+> portofolio-next-js@0.1.0 build
+> next build
+
+   Linting and checking validity of types ...
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Collecting page data ...
+ReferenceError: PostsPage is not defined
+    at 7178 (C:\Users\Geva alviana tanjung\portofolio\.next\server\pages\blog\posts.js:1:1569)
+    at __webpack_require__ (C:\Users\Geva alviana tanjung\portofolio\.next\server\webpack-runtime.js:1:145)
+    at C:\Users\Geva alviana tanjung\portofolio\.next\server\pages\blog\posts.js:1:462
+    at __webpack_require__.a (C:\Users\Geva alviana tanjung\portofolio\.next\server\webpack-runtime.js:1:976)
+    at 1764 (C:\Users\Geva alviana tanjung\portofolio\.next\server\pages\blog\posts.js:1:80)
+    at __webpack_require__ (C:\Users\Geva alviana tanjung\portofolio\.next\server\webpack-runtime.js:1:145)
+    at __webpack_exec__ (C:\Users\Geva alviana tanjung\portofolio\.next\server\pages\blog\posts.js:1:2437)
+    at C:\Users\Geva alviana tanjung\portofolio\.next\server\pages\blog\posts.js:1:2500
+    at __webpack_require__.X (C:\Users\Geva alviana tanjung\portofolio\.next\server\webpack-runtime.js:1:2141)
+    at C:\Users\Geva alviana tanjung\portofolio\.next\server\pages\blog\posts.js:1:2450
+
+> Build error occurred
+Error: Failed to collect page data for /blog/posts
+    at C:\Users\Geva alviana tanjung\portofolio\node_modules\next\dist\build\utils.js:1171:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {
+  type: 'Error'
+}
